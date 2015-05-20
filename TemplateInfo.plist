@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ancestors</key>
+	<array>
+		<string>com.apple.dt.unit.cocoaTouchApplication</string>
+		<string>com.apple.dt.unit.coreDataCocoaTouchApplication</string>
+	</array>
+	<key>Concrete</key>
+	<true/>
+	<key>Description</key>
+	<string>This template provides a starting point for an custom application.</string>
+	<key>Identifier</key>
+	<string>com.apple.dt.unit.customApplication</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>universalDeviceFamily</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>languageChoice</string>
+			<key>Units</key>
+			<dict>
+				<key>Swift</key>
+				<dict>
+					<key>Nodes</key>
+					<array>
+						<string>Classes/Controllers/ViewController.swift</string>
+						<string>___PACKAGENAMEASIDENTIFIER___-Bridging-Header.h</string>
+						<string>Classes/Models/</string>
+						<string>Classes/Views/</string>
+						<string>Classes/Extensions/</string>
+					</array>
+					<key>Definitions</key>
+					<dict>
+						<key>AppDelegate.swift:implementation:methods:applicationdidFinishLaunchingWithOptions:body</key>
+						<string>// Override point for customization after application launch.
+self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+self.window?.rootViewController = ViewController()
+self.window?.makeKeyAndVisible()</string>
+						<key>Classes/Controllers/</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/Controllers/</string>
+						</dict>
+						<key>Classes/Models/</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/Models/</string>
+						</dict>
+						<key>Classes/Views/</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/Views/</string>
+						</dict>
+						<key>Classes/Extensions/</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/Extensions/</string>
+						</dict>
+						<key>Classes/Controllers/ViewController.swift</key>
+						<dict>
+							<key>Group</key>
+							<array>
+								<string>Classes</string>
+								<string>Controllers</string>
+							</array>
+							<key>Path</key>
+							<string>Classes/Controllers/ViewController.swift</string>
+						</dict>
+						<key>___PACKAGENAMEASIDENTIFIER___-Bridging-Header.h</key>
+						<dict>
+							<key>Path</key>
+							<string>___PACKAGENAMEASIDENTIFIER___-Bridging-Header.h</string>
+						</dict>
+					</dict>
+				</dict>
+			</dict>
+		</dict>
+	</array>
+	<key>SortOrder</key>
+	<integer>1</integer>
+</dict>
+</plist>
